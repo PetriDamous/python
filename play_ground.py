@@ -1,12 +1,16 @@
-# print("1.*Loops are great*")
-# print("2.**Loops are great**")
-# print("3.***Loops are great***")
-# print("4.****Loops are great****")
-# print("5.*****Loops are great*****")
+class Person:
+    def move(self):
+        print("moves 4 paces")
 
-counter = 1
-star = "*"
+class Healer(Person):
+    def heal(self):
+        print("heals 10 HP")
 
-while counter < 6:
-    print(f"{counter}. {star * counter}Loops are great{star * counter}")
-    counter += 1 
+class Fighter(Person):
+    def fight(self):
+        print("10 HP damage")
+    
+    def move(self):
+        print("moves 10 paces")
+
+# class Wizard(Fighter, )
