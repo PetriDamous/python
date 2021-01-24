@@ -1,16 +1,8 @@
-class Person:
-    def move(self):
-        print("moves 4 paces")
+# def multi(a, b):
+#     return a * b
 
-class Healer(Person):
-    def heal(self):
-        print("heals 10 HP")
+# print(multi(2, 3))
 
-class Fighter(Person):
-    def fight(self):
-        print("10 HP damage")
-    
-    def move(self):
-        print("moves 10 paces")
+multi = lambda x,y: x * y
 
-# class Wizard(Fighter, )
+print(multi(2, 3))
