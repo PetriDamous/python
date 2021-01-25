@@ -95,7 +95,7 @@ print(word)
 # .join() way with sample
 # sample() used on a string will split the string into a list
 
-# print(sample(lets_nums, 7))
+print(sample(lets_nums, 7))
 
 word = ''.join(sample(lets_nums, 7))
 
@@ -103,6 +103,6 @@ print(word)
 
 # chocies() way
 
-word = ''.join(choices(lets_nums, k=7))
+# word = ''.join(choices(lets_nums, k=7))
 
 print(word)
